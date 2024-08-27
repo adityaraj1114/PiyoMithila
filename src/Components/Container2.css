@@ -1,0 +1,228 @@
+.container2 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* margin: 5% 0; */
+}
+
+.profile {
+  /* margin-bottom: 5%; */
+  padding: 2%;
+  height: 100%;
+  width: 88vw;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translate(0, -10%);
+  background: var(--bg);
+}
+
+.profileImg {
+  /* background-color: rgb(104, 218, 250); */
+  background: var(--bg);
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  transform: translate(0, -25%);
+  margin-bottom: -15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 12px 25px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 3px;
+  transition: all ease 0.1s;
+}
+
+.profileImg img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  border-radius: 50%;
+}
+
+.profile h2 {
+  color: black;
+  font-size: 8.2vw;
+  font-weight: 400;
+}
+
+.profile h3 {
+  color: black;
+  font-size: 6vw;
+  font-weight: 400;
+  line-height: 1px;
+}
+
+.profile p {
+  color: black;
+  font-size: 4.5vw;
+  line-height: 20%;
+  font-weight: 400;
+}
+
+.profileDetails {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.addContact {
+  transform: translate(0, 65%);
+}
+
+.addContact button {
+  background: (--bg);
+}
+/* -----------------------Contact links--------------------------- */
+
+.contactLinks {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 10%; */
+}
+
+.phone {
+  margin-bottom: 4%;
+  padding: 1% 2%;
+  height: 100%;
+  width: 88vw;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--col);
+  line-height: 1cm;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10vw;
+  padding: 10px 10px 5px 10px;
+  color: rgb(252, 251, 254);
+  background-color: black;
+  border-radius: 50%;
+}
+
+.icons {
+  display: flex;
+  margin-top: 8%;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.iconCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 90px; */
+  /* height: 90px; */
+  font-size: 10vw;
+  padding: 20px 20px 10px 20px;
+  color: antiquewhite;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.icon img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+  object-fit: contain;
+  /* border: none; */
+}
+
+.iconBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+  font-size: 8vw;
+  padding: 5px;
+  color: grey;
+  border: none;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.phoneNo {
+  width: 60%;
+  line-height: 0.1cm;
+  padding-left: 5%;
+  align-items: start;
+}
+
+.phone p {
+  font-size: 4vw;
+  font-weight: 400;
+  color: gray;
+}
+
+.phone h3 {
+  font-size: 6vw;
+  font-weight: 400;
+}
+
+/* .phone button {
+    padding: 1% 2%;
+    color: greenyellow;
+    align-items: center;
+    font-weight: 100;
+    font-size: 4vw;
+    border-radius: 2px solid aqua;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+} */
+
+.email {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 2%;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(162, 195, 205);
+  transform: translate(0, -10%);
+  line-height: 0.3cm;
+}
+
+.website {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 2%;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(244, 249, 250);
+  transform: translate(0, -10%);
+  line-height: 0.3cm;
+}
+
+/* ----------------------------------------- */

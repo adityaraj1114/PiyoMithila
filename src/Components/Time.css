@@ -1,0 +1,168 @@
+/* .span {
+    font-size: 4vw;
+    background-color: red;
+} */
+
+.accordian {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 88vw;
+  height: 100%;
+  border-radius: 40px;
+  padding: 0 2% 0% 2%;
+  background-color: var(--col);
+  flex-direction: column;
+  /* margin-bottom: 14%; */
+  transition: height 2s ease-out;
+}
+
+.weeklyTime {
+  padding: 0 0 2% 0;
+  width: 90%;
+  /* display: none; */
+  background-color: transparent;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.timings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px dotted;
+    transition: height 2s ease-out;
+
+}
+
+.timings h3 {
+    font-size: 4vw;
+    color: grey;
+    font-weight: 400;
+  }
+
+.timings p {
+    font-size: 3.5vw;
+    color: grey;
+  font-weight: 400;
+}
+
+/* ---------------------------------------------------------------- */
+
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  /* margin: 10% 0 12% 0; */
+}
+
+/* -----------------------Contact links--------------------------- */
+
+.contactLinks {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 10%; */
+}
+
+.openingTime {
+  /* margin-bottom: 4%; */
+  padding: 3% 2% 0 2%;
+  height: 100%;
+  width: 100%;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: rgb(243, 244, 245); */
+  line-height: 1cm;
+}
+/* 
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  font-size: 12vw;
+  color: antiquewhite;
+  background-color: black;
+  border-radius: 50%;
+} */
+
+.icon img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+  object-fit: contain;
+  /* border: none; */
+}
+
+.iconBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+  font-size: 8vw;
+  padding: 5px;
+  color: grey;
+  border: none;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.phoneNo {
+  width: 60%;
+  line-height: 0.1cm;
+  padding-left: 5%;
+  align-items: start;
+}
+
+.openingTime p {
+  font-size: 4vw;
+  font-weight: 400;
+  color: gray;
+}
+
+.openingTime h3 {
+  font-size: 6vw;
+  font-weight: 400;
+}
+
+.email {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 2%;
+  height: 100%;
+  width: 85%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(162, 195, 205);
+  transform: translate(0, -10%);
+  line-height: 0.3cm;
+}
+
+.website {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 2%;
+  height: 100%;
+  width: 85%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(244, 249, 250);
+  transform: translate(0, -10%);
+  line-height: 0.3cm;
+}
+
+/* ----------------------------------------- */

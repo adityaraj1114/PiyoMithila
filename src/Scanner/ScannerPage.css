@@ -1,0 +1,104 @@
+/*   */
+
+.scannerPage {
+    height: 100vh;
+    width: 101vw;
+    margin: -10px;
+    background-color: white;
+    z-index: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.scannerProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    position: relative;
+}
+
+.ownerDetail {
+    /* display: flex; */
+    /* flex-direction: column; */
+    line-height: 0.5cm;
+    align-items: center;
+    text-align: center;
+    padding: 2% 0;
+}
+
+.scannerProfile h2 {
+    color: black;
+    /* line-height: 1px; */
+}
+
+.scannerProfile p {
+    color: rgb(61, 57, 57);
+    line-height: 0px;
+}
+
+.scannerProfile h3 {
+    color: black;
+    line-height: 0px;
+
+}
+
+.circularProfile {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.circularProfile img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.scProfileImg {
+    height: 70vw;
+    width: 70vw;
+
+}
+
+.scProfileImg img {
+    height: 100%;
+    width: 100%;
+}
+
+.addToHomeGallery {
+    width: 100%;
+}
+
+.addToHomeScreen {
+    padding: 1% 5%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.addToGallery {
+    padding: 1% 5%;
+    border-bottom: 1px solid black;
+}
+
+.cancelBtn {
+    padding: 10px;
+    position: absolute;
+    z-index: 10;
+    /* align-items: center; */
+    transform: translate(100%,100%);
+    font-size: 5vw;
+    right: 20%;
+    top: 1%;
+
+}
+
+.crossBtn {
+    position: absolute;
+    z-index: 50;
+    top: 0;
+}

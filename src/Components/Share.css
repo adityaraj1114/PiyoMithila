@@ -1,0 +1,164 @@
+.share {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 8%; */
+  /* margin: 7% 0; */
+}
+
+.shareIcon span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 85%; */
+  /* height: 100%; */
+  font-size: 12vw;
+  padding: 10px;
+  color: antiquewhite;
+  background-color: black;
+  border-radius: 50%;
+}
+
+/* .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.shareCard {
+  /* margin: 5% 0 4% 0;x   */
+  padding: 9% 2% 0% 2%;
+  height: 100%;
+  width: 88vw;
+  border-radius: 40px;
+  flex-direction: column;
+  background-color: var(--col);
+
+  /* background: rgb(202, 196, 249);
+  background: linear-gradient(
+    90deg,
+    rgba(202, 196, 249, 1) 0%,
+    rgba(240, 239, 251, 1) 25%,
+    rgba(255, 255, 255, 1) 49%,
+    rgba(255, 255, 255, 1) 67%,
+    rgba(234, 234, 249, 1) 79%,
+    rgba(208, 202, 249, 1) 99%
+  ); */
+}
+
+.shareHeading {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.1px dotted;
+  width: 100%;
+  /* gap: 5%; */
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 5%;
+}
+
+.shareCard h2 {
+  font-size: 9vw;
+  font-weight: 400;
+  line-height: 0cm;
+}
+
+.whatsApp {
+  margin-bottom: 4%;
+  /* padding: 2%; */
+  height: 100%;
+  width: 100%;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--col);
+  line-height: 1cm;
+}
+
+.whatsApp p {
+  font-size: 4vw;
+  font-weight: 400;
+  color: gray;
+}
+
+.whatsApp h3 {
+  font-size: 6vw;
+  font-weight: 400;
+}
+
+.shareIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* width: 90%; */
+}
+
+.instagram p {
+  font-size: 4vw;
+  font-weight: 400;
+  color: gray;
+}
+
+.instagram h3 {
+  font-size: 6vw;
+  font-weight: 400;
+}
+
+/* ------------------------------------form--------------------------- */
+
+.shareFormDetails {
+  /* height: 40vh; */
+  width: 100%;
+  line-height: 18px;
+  /* background-color: aqua; */
+  padding: 4%;
+}
+
+.shareFormDetails h2 {
+  font-size: 6vw;
+  line-height: 1cm;
+  color: black;
+  font-weight: 400;
+}
+
+form {
+  margin-top: 13%;
+}
+
+form p {
+  font-size: 4vw;
+  font-weight: 400;
+}
+
+input {
+  background: transparent;
+  /* color: rgb(255, 255, 255); */
+  background-image: linear-gradient(
+    rgba(235, 237, 237, 0.8) 0,
+    rgba(100, 230, 250, 0) 60%,
+    rgba(205, 207, 207, 0.8) 100%
+  );
+
+  width: 80%;
+  padding: 4%;
+  font-size: 7vw;
+  border: none;
+  border-radius: 10px;
+  border: 0.02px rgb(14, 12, 12) solid;
+}
+
+form button {
+  color: aliceblue;
+  padding: 2% 8%;
+  margin: 8% 0;
+  font-size: 7vw;
+  font-weight: 400;
+  border-radius: 40px;
+  border: none;
+  background-color: black;
+}

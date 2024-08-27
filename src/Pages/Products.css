@@ -1,0 +1,68 @@
+.products {
+  /* overflow-x: auto; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10%;
+  /* overflow-x: auto; */
+  /* margin-left: 10%; */
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: none;
+}
+
+.productSection::-webkit-scrollbar {
+  display: none;
+}
+
+.productHeading {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.1px dotted;
+  background: var(--bg); 
+  
+  width: 92vw;
+  /* gap: 5%; */
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2%;
+  border-radius: 40px 40px 0 0;
+  padding-top: 8%;
+}
+
+.productHeading h2 {
+  font-size: 9vw;
+  font-weight: 400;
+  line-height: 0cm;
+}
+
+.moreBtn  {
+    background: var(--bg);
+    width: 82vw;
+    display: flex;
+    border-radius: 40px;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.viewMore button {
+    color: rgb(15, 15, 14);
+  background: var(--bg);
+  
+  font-size: 6vw;
+  font-weight: 400;
+  border-radius: 40px;
+  padding: 5% 2%;
+  width: 50vw;
+  border: 2px solid black;
+  box-shadow: 0 -4px 19px 0 rgba(0, 0, 10, 1.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

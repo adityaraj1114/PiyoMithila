@@ -1,0 +1,94 @@
+.contact {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contactIcon span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 85%; */
+    /* height: 100%; */
+    font-size: 12vw;
+    padding: 10px;
+    color: antiquewhite;
+    background-color: black;
+    border-radius: 50%;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contactCard {
+    /* margin: 5% 0 5% 0; */
+    padding: 8% 2% 8% 2%;
+    height: 100%;
+    width: 92vw;
+    border-radius: 40px;
+    flex-direction: column;
+    background-color: var(--col);
+  }
+  
+  .contactHeading {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.1px dotted;
+    width: 100%;
+    /* gap: 5%; */
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5%;
+  }
+  
+  .contactCard h2 {
+    font-size: 9vw;
+    font-weight: 400;
+    line-height: 0cm;
+  }
+  
+  .contactDetails {
+    width: 100%;
+    padding: 0 5%;
+    line-height: 0cm;
+  }
+
+  .contactCall {
+    
+    padding: 2% 0;
+   width: 100%;
+  }
+
+  .contactDetails h3 {
+    margin-top: 8%;
+    font-size: 7vw;
+    font-weight: 400;
+  }
+  
+  .contactDetails p {
+    font-size: 5vw;
+  font-weight: 400;
+    color: grey;
+  }
+
+  .directionBtn button {
+    margin: 5% 0;
+    color: aliceblue;
+    background-color: black;
+    font-size: 6vw;
+    font-weight: 400;
+    border-radius: 35px;
+    padding: 2% 2%;
+    width: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+  }
+  
