@@ -9,7 +9,7 @@ export const Scanner = () => {
   const shareData = {
     title: "My Portfolio",
     text: "Check out my Shop here:",
-    url: "https://shivamfancycracker.netlify.app/",
+    url: "https://piyomithila.netlify.app/",
   };
 
   const handleShare = async () => {

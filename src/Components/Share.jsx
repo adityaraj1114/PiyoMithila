@@ -11,8 +11,8 @@ export const Share = () => {
   const sendWhatsAppMessage = (event) => {
     event.preventDefault(); // Prevent form submission
 
-    const portfolioLink = ""; // Replace with your actual portfolio link
-    const message = `Check out my Shop Details: ${portfolioLink}`;
+    const portfolioLink = "https://piyomithila.netlify.app/"; // Replace with your actual portfolio link
+    const message = `Check out my Business Details: ${portfolioLink}`;
 
     // Construct the WhatsApp URL
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
